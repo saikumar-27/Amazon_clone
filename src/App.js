@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Checkout from "./Checkout/Checkout";
 import Login from "./Login/Login";
 import { useStateValue } from "./StateProvider";
+import { auth } from "../src/firebase";
 
 function App() {
   //Data layer component that connected to firebase
